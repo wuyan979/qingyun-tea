@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录 - 清韵茶坊</title>
+    <meta name="description" content="登录后可进入会员中心和后台演示。">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="wrap"><span>《网站设计与开发》课程综合实验作品</span><span>文化艺术类 · 茶文化主题网站</span></div>
+    </div>
+    <header>
+        <div class="wrap header-inner">
+            <a class="brand" href="index.html"><span class="brand-mark">茶</span><span>清韵茶坊</span></a>
+            <div class="header-actions" data-user-area></div>
+        </div>
+        <nav><div class="wrap nav-inner"><a href="index.html" class="">首页</a>
+<a href="tea.html" class="">茶叶种类</a>
+<a href="knowledge.html" class="">品茶知识</a>
+<a href="tools.html" class="">茶具鉴赏</a>
+<a href="culture.html" class="">茶史文化</a>
+<a href="brewing.html" class="">冲泡指南</a>
+<a href="health.html" class="">茶与养生</a>
+<a href="ceremony.html" class="">茶礼茶俗</a>
+<a href="search.html" class="">站内搜索</a>
+<a href="about.html" class="">项目说明</a></div></nav>
+    </header>
+    <section class="hero">
+        <div class="wrap hero-grid">
+            <div>
+                <h1>用户登录</h1>
+                <p>登录后可进入会员中心和后台演示。</p>
+                <div class="pill-row">
+                    <a class="btn gold" href="tea.html">浏览茶类</a>
+                    <a class="btn secondary" href="search.html">站内搜索</a>
+                </div>
+            </div>
+            <div class="hero-card"><div class="steam"></div></div>
+        </div>
+    </section>
+    <main class="wrap">
+
+        <section class="section-title"><small>LOGIN</small><h2>会员登录</h2></section>
+        <div class="grid cols-2">
+            <div class="card">
+                <form class="form" id="loginForm">
+                    <label>用户名</label><input name="username" required placeholder="演示账号：demo">
+                    <label>密码</label><input name="password" type="password" required placeholder="演示密码：123456">
+                    <button class="btn" type="submit">登录</button>
+                    <div class="notice" id="loginNotice"></div>
+                </form>
+            </div>
+            <div class="card"><h3>功能说明</h3><p>本课程作品使用浏览器 localStorage 模拟用户登录，不连接真实服务器，便于课堂演示注册、登录和权限入口。</p><a class="btn secondary" href="register.html">没有账号，去注册</a></div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="wrap footer-grid">
+            <div>
+                <h3>清韵茶坊</h3>
+                <p>以茶文化为主题的课程实验网站，包含展示、检索、会员、留言与后台管理演示。</p>
+            </div>
+            <div class="footer-links">
+                <a href="sitemap.html">网站结构</a>
+                <a href="login.html">登录</a>
+                <a href="register.html">注册</a>
+                <a href="admin.html">后台演示</a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
